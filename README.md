@@ -4,7 +4,7 @@ A standalone Connections page and status chip for configured messaging platforms
 
 ## Compatibility
 
-Requires Hermes Desktop with the proposed `connections.health` SDK contribution API, plus the passive `mcp.servers.status` RPC merged in NousResearch/hermes-agent#104527. The SDK follow-up is not merged: stock Hermes releases without those SDK exports cannot load this plugin. This is a source distribution, not an npm package; no JavaScript build is needed at runtime.
+Requires Hermes Desktop with the proposed [`connections.health` SDK contribution API (PR #105196)](https://github.com/NousResearch/hermes-agent/pull/105196), plus the passive `mcp.servers.status` RPC merged in [#104527](https://github.com/NousResearch/hermes-agent/pull/104527). The SDK follow-up is not merged: stock Hermes releases without those SDK exports cannot load this plugin. This is a source distribution, not an npm package; no JavaScript build is needed at runtime.
 
 ## Installation
 
