@@ -1,0 +1,5 @@
+{
+  "name": "connections",
+  "label": "Connections",
+  "api": "plugin_api.py"
+}
