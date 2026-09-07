@@ -2,6 +2,10 @@
 
 A standalone Connections page and status chip for configured messaging platforms, MCP servers, and optional local service checks. Developed for Joey with AI assistance. Licensed under MIT.
 
+![Connections showing sign-in actions for Supabase and Vercel above healthy Apple Calendar and GitHub checks](docs/images/connections-overview.png)
+
+*Cropped live view of the standalone plugin on a local SDK-enabled Desktop build. Additional service rows and surrounding app UI are outside the crop; displayed statuses are a snapshot, not a compatibility guarantee.*
+
 ## Compatibility
 
 Requires Hermes Desktop with the proposed [`connections.health` SDK contribution API (PR #105196)](https://github.com/NousResearch/hermes-agent/pull/105196), plus the passive `mcp.servers.status` RPC merged in [#104527](https://github.com/NousResearch/hermes-agent/pull/104527). The SDK follow-up is not merged: stock Hermes releases without those SDK exports cannot load this plugin. This is a source distribution, not an npm package; no JavaScript build is needed at runtime.
